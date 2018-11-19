@@ -1,0 +1,109 @@
+/* Global */
+html,
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #777;
+}
+
+#computer {
+    height: 220px;
+    margin-top: 50px;
+    font-size: 10px;
+    line-height: 1.3em;
+}
+
+#main {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'SourceSansPro', sans-serif;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+#main a {
+    border-bottom: 2px solid #aacc45;
+    padding-bottom: 1px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'SourceSansPro', sans-serif;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+/* Fonts */
+@font-face {
+        font-family: 'SourceSansPro';
+        src: url('../fonts/ssp/SourceSansPro-Regular.otf') format('opentype');
+	font-weight: normal;
+}
+
+@font-face {
+        font-family: 'SourceSansPro';
+	src: url('../fonts/ssp/SourceSansPro-Bold.otf') format('opentype');
+	font-weight: bold;
+}
+
+/* Fancy responsive media queries */
+@media only screen
+and (min-width: 320px)
+and (max-width: 479px){
+
+	#computer {
+		margin-top: -52px;
+		height: 150px;
+		width: 274px;
+		font-size: 7px;
+		overflow: hidden;
+	}
+
+        #main {
+                width: auto;
+                margin: 0;
+                padding: 0px 30px;
+                font-size: 1em;
+		line-height: 26px;
+        }
+
+	h1 {
+		line-height: 36px;
+	}
+}
+
+@media only screen
+and (min-width: 480px)
+and (max-width: 767px){
+
+	#computer {
+		overflow: hidden;
+	}
+
+        #main {
+                width: auto;
+                margin: 0;
+                padding: 0px 30px;
+                font-size: 1em;
+		line-height: 26px;
+        }
+
+	h1 {
+		line-height: 36px;
+	}
+}
+
+@media only screen
+and (min-width: 768px)
+and (max-width: 991px){
+
+}
+
+@media only screen
+and (min-width: 992px)
+and (max-width: 1999px){ ... }
