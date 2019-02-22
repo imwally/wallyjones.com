@@ -1,4 +1,4 @@
-# imwally.net
+# wallyjones.com
 
 One day I'll get my infrastructure together. For now my homepage will be hosted
 from github.
