@@ -3,105 +3,87 @@ html,
 body {
     margin: 0;
     background-color: #fff;
-    color: #777;
+    color: #001F3F;
 }
 
-#computer {
-    height: 220px;
-    margin-top: 50px;
-    font-size: 10px;
-    line-height: 1.3em;
+header {
+    width: 600px;
+    margin: auto;
+    padding: 0 20px;
 }
 
-#main {
-    width: 500px;
+main {
+    padding: 0 20px;
+    width: 600px;
     margin: auto;
     margin-bottom: 50px;
-    font-family: 'SourceSansPro', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
     line-height: 30px;
 }
 
-#main a {
-    border-bottom: 2px solid #aacc45;
-    padding-bottom: 1px;
+a {
+    color: #3455db;
 }
 
-a {
-    color: #777;
-    text-decoration: none;
-}
 
 h1 {
-    font-family: 'SourceSansPro', sans-serif;
-    line-height: 46px;
-    font-weight: 700;
+    font-size: 3em;
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
 }
 
 /* Fonts */
 @font-face {
-        font-family: 'SourceSansPro';
-        src: url('../fonts/ssp/SourceSansPro-Regular.otf') format('opentype');
-	font-weight: normal;
+        font-family: 'Raleway';
+        src: url('../fonts/raleway/Raleway-Light.ttf') format('opentype');
+	font-weight: 100;
 }
 
 @font-face {
-        font-family: 'SourceSansPro';
-	src: url('../fonts/ssp/SourceSansPro-Bold.otf') format('opentype');
-	font-weight: bold;
+    font-family: 'Raleway';
+	src: url('../fonts/raleway/Raleway-Medium.ttf') format('opentype');
+	font-weight: normal;
 }
 
 /* Fancy responsive media queries */
 @media only screen
 and (min-width: 320px)
 and (max-width: 479px){
-
-	#computer {
-		margin-top: -52px;
-		height: 150px;
-		width: 274px;
-		font-size: 7px;
-		overflow: hidden;
-	}
-
-        #main {
-                width: auto;
-                margin: 0;
-                padding: 0px 30px;
-                font-size: 1em;
-		line-height: 26px;
-        }
-
-	h1 {
-		line-height: 36px;
-	}
+    header {
+	width: auto;
+    }
+    
+    main {
+        width: auto;
+        margin: 0;
+        padding: 0px 30px;
+        font-size: 1.2em;
+	line-height: 26px;
+    }
 }
 
 @media only screen
 and (min-width: 480px)
 and (max-width: 767px){
-
-	#computer {
-		overflow: hidden;
-	}
-
-        #main {
-                width: auto;
-                margin: 0;
-                padding: 0px 30px;
-                font-size: 1em;
-		line-height: 26px;
-        }
-
-	h1 {
-		line-height: 36px;
-	}
+    header {
+	width: auto;
+    }
+    
+    main {
+        width: auto;
+        margin: 0;
+        padding: 0px 30px;
+        font-size: 1.2em;
+	line-height: 26px;
+    }
 }
 
 @media only screen
 and (min-width: 768px)
 and (max-width: 991px){
-
+    
 }
 
 @media only screen
