@@ -33,6 +33,27 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
 }
+
+/* Fonts */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Light.ttf') format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Medium.ttf') format('opentype');
+    font-weight: normal;
+}
+
+/* Fancy responsive media queries */
+@media only screen
+and (min-width: 320px)
+and (max-width: 479px){
+    header {
+	width: auto;
+    }
     
     main {
         width: auto;
