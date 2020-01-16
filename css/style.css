@@ -87,3 +87,16 @@ and (max-width: 991px){
 @media only screen
 and (min-width: 992px)
 and (max-width: 1999px){ ... }
+
+@media (prefers-color-scheme: dark) {
+    body, html {
+	    background-color: #202020;
+	    color: #d8d8d8;
+    }
+    h1 {
+	    color: #d8d8d8
+    }
+    a {
+            color: #84D8FF;
+    }
+}
