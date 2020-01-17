@@ -2,7 +2,6 @@
 html,
 body {
   margin: 0;
-  color: #001F3F;
   height: 100%;
 }
 
@@ -14,23 +13,34 @@ body {
 }
 
 main {
-  width: 840px;
   margin: auto;
   padding: 20px;
 }
 
-h1, nav {
-  animation-fill-mode: forwards;
-}
 
 h1 {
-  line-height: 0.9em;
+  float: left;
   margin: 0;
   padding: 0;
 }
 
+.avatar {
+        background-image: url('https://en.gravatar.com/userimage/27123989/1bb56f157a33b09e7eedf8609945fa1a.jpg?size=500');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 128px;
+        height: 128px;
+        border-radius: 100px;
+        margin: 0 0 20px 0;
+}
+
+p {
+  clear: both;
+}
+
 nav {
   margin: auto;
+  clear: both;
 }
 nav ul {
   list-style: none;
@@ -47,35 +57,49 @@ a {
 
 
 /* fancy css shite */
-h1 {
+.slide-down {
   animation-delay: 2s;
-  animation: 1s ease-out 0s 1 slideDown;
-p
+  animation: 2s ease 0s normal forwards 1 slideDown;
+  animation-fill-mode: forwards;
 }
 
-nav {
-  animation-delay: 2s; 
-  animation: slideUp 1s;
+.slide-up {
+  animation-delay: 3s; 
+  animation: 3s ease 0s normal forwards 1 slideUp;
+  animation-fill-mode: forwards;
 }
 
 @keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-20%);
+  0% {
+    opacity: 0
   }
-  to {
+  66% {
+    transform: translateY(-20%);
+    opacity: 0;
+  }
+  100% {
     transform: translateY(0);
     opacity: 1;
   }
 }
 
 @keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(20%);
+  0% {
+    opacity: 0
   }
-  to {
-    opacity: 1;
+  66% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* fancy responsive shite */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.4em;
   }
 }
