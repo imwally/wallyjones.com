@@ -56,15 +56,20 @@ a {
 }
 
 
-/* 404 bg */
-.bg {
+/* 404 */
+.white-font {
+  color: #fff;
+}
+.not-found {
   background-image: url('/img/dade.gif');
   background-size: cover;
+  background-position: bottom center;
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -999;
 }
 
 /* fancy css shite */
