@@ -9,7 +9,6 @@ body {
   font-family: 'Avenir', sans-serif;
   font-size: 2em;
   display: flex;
-  height: 100vh;
 }
 
 main {
@@ -25,13 +24,13 @@ h1 {
 }
 
 .avatar {
-        background-image: url('https://en.gravatar.com/userimage/27123989/1bb56f157a33b09e7eedf8609945fa1a.jpg?size=500');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 128px;
-        height: 128px;
-        border-radius: 100px;
-        margin: 0 0 20px 0;
+  background-image: url('https://en.gravatar.com/userimage/27123989/1bb56f157a33b09e7eedf8609945fa1a.jpg?size=500');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+  margin: 0 0 20px 0;
 }
 
 p {
