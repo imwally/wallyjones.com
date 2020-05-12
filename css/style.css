@@ -74,14 +74,14 @@ a {
 
 /* fancy css shite */
 .slide-down {
-  animation-delay: 2s;
-  animation: 2s ease 0s normal forwards 1 slideDown;
+  animation-delay: 1s;
+  animation: 1s ease 0s normal forwards 1 slideDown;
   animation-fill-mode: forwards;
 }
 
 .slide-up {
-  animation-delay: 3s; 
-  animation: 3s ease 0s normal forwards 1 slideUp;
+  animation-delay: 2s; 
+  animation: 2s ease 0s normal forwards 1 slideUp;
   animation-fill-mode: forwards;
 }
 
