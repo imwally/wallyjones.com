@@ -1,6 +1,6 @@
 # wallyjones.com
 
-My little homepage running on [OpenBDS](https://www.openbsd.org) using
+My little homepage running on [OpenBSD](https://www.openbsd.org) using
 [httpd](https://man.openbsd.org/httpd.8) and
 [acme-client](https://man.openbsd.org/acme-client.1). 
 
