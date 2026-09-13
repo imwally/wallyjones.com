@@ -1,0 +1,7 @@
+*~
+.DS*
+.git*
+Makefile*
+README*
+tar-exclude.txt
+
