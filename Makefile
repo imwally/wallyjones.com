@@ -1,6 +1,6 @@
 REMOTE_SERVER     ?= frodo
 REMOTE_USER       ?= wally
-REMOTE_WWWROOT    ?= /www/htdocs/wallyjones.com/
+REMOTE_WWWROOT    ?= /var/www/htdocs/wallyjones.com/
 
 LOCAL_PORT ?= 8080
 
