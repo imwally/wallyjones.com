@@ -8,10 +8,11 @@ body {
 body {
   font-family: 'Avenir', sans-serif;
   display: flex;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 main {
+  max-width: 600px;
   padding: 2rem;
   margin: auto;
   display: grid;
@@ -32,6 +33,13 @@ h1 {
   height: 128px;
   border-radius: 100px;
   margin: 20px 0;
+}
+
+#jack {
+  width: 100px;
+}
+#jack img {
+  width: 100%;
 }
 
 p {
